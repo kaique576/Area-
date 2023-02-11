@@ -1,0 +1,18 @@
+Algoritmo "Geometria"
+Var lado, altura, Area : real
+
+Inicio
+     
+escreva("Digite o valor do lado: ")
+leia(lado)
+
+escreva("Digite o valor da altura: ")
+leia(altura)
+
+Area<- lado * altura
+
+escreva("a area do quadrado é igual a ", Area)
+
+ 
+
+Fimalgoritmo
