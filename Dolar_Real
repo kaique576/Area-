@@ -1,0 +1,12 @@
+Algoritmo "Conversor_Dolar_Real"
+
+Var
+ Dolar:real
+ Reais: real
+
+Inicio
+     Escreval("Digite quantos  reais voce tem? ")
+     Leia(Reais)
+     Dolar<- Reais/5.15
+     Escreval("Voce tem atualmente ", Dolar)
+Fimalgoritmo
