@@ -1,0 +1,17 @@
+Algoritmo "Conversor_Temp"
+
+Var
+c: real
+fahrenheit: real
+
+Inicio
+
+Escreval("Informe a temperatura: ")
+Leia(fahrenheit)
+
+c<-(fahrenheit-32)/1.8
+
+Escreval("a temperatura é ",c:4:1," em celsius" )
+//esse c:4:1 limita as casas decimais\\
+
+Fimalgoritmo
