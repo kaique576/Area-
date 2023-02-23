@@ -1,0 +1,14 @@
+Algoritmo "Calc_IMP"
+
+
+Var
+valor_produto: real
+imposto:real
+
+Inicio
+  Escreval("Escreva o valor do produto: ")
+  leia(valor_produto)
+  imposto<-(valor_produto*60)/100
+  Escreval("O imposto é ", imposto:5:2," reais")
+            //5 casa e 2 depois da virgula\\
+Fimalgoritmo
