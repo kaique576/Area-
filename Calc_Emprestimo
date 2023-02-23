@@ -1,0 +1,17 @@
+Algoritmo "Calc_Emprestimo"
+
+Var
+Emprestimo: real
+parcela: real
+valor_final: real
+
+Inicio
+    Escreval("Valor do emprestimo: ")
+    Leia(Emprestimo)
+    Emprestimo<-Emprestimo + 200
+    Escreval("Quantas parcelas?")
+    Leia(parcela)
+    valor_final<- Emprestimo/parcela
+    Escreval("O emprestimo é de", Emprestimo," sendo pago parcelas de ",parcela," Com cada parcela tendo valor de",valor_final)
+
+Fimalgoritmo
