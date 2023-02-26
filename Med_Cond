@@ -1,0 +1,42 @@
+Algoritmo "Med_Cond"
+
+Var
+  n1, n2: real
+  M:real
+
+Inicio
+      Escreval("----------------")
+      Escreval("Bom dia, Digite suas notas: ")
+      Escreval("----------------")
+      
+
+      Escreval("Digite a sua primeira nota: ")
+      Leia(n1)
+      Escreval("Digite a sgunda nota: ")
+      Leia(n2)
+      M<- (n1+n2)/2
+      Escreval("A sua media é: ", M:5:1)
+      Escolha M
+      
+      Caso 5
+      Escreval("Seu aproveitameneto é F ")
+      
+      Caso 5.9,5
+      Escreval("Seu aproveitamento é E ")
+      
+      Caso 6.9,6
+      Escreval("Seu aproveitamento é D ")
+      
+      Caso 7.9,7
+      Escreval("Seu aproveitamento é C ")
+      
+      Caso 8.9,8
+      Escreval("Seu aproveitamento é B ")
+      
+      Caso 10,9
+      Escreval("Seu aproveitamento é A")
+      
+
+      FimEscolha
+
+Fimalgoritmo
