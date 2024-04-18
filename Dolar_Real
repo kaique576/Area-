@@ -1,7 +1,7 @@
 Algoritmo "Conversor_Dolar_Real"
 
 Var
- Dolar:real
+ Dolar: real
  Reais: real
 
 Inicio
