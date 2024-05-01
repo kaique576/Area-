@@ -12,7 +12,7 @@ Inicio
 
       Escreval("Digite a sua primeira nota: ")
       Leia(n1)
-      Escreval("Digite a sgunda nota: ")
+      Escreval("Digite a segunda nota: ")
       Leia(n2)
       M<- (n1+n2)/2
       Escreval("A sua media é: ", M:5:1)
